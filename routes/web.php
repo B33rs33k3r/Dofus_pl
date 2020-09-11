@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\RunController;
+use App\Http\Controllers\RunController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +14,4 @@ use app\Http\Controllers\RunController;
 |
 */
 
-Route::get('/', [RunController::class, 'Index']);
+Route::get('/', [RunController::class, 'index']);
